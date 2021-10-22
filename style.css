@@ -49,8 +49,14 @@
 }
 
 .fBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
     background-color: lightgray;
     border: 2px solid lightslategray;
+    border-radius: 16px;
     height: 75px;
     width: 150px;
 }

@@ -12,6 +12,8 @@ cBtn.forEach(btn => btn.addEventListener('click', cBtnClick))
 cBtn.forEach(btn => btn.addEventListener('mouseout', mouseOut))
 
 clearBtn.addEventListener('click', clear);
+clearBtn.addEventListener('mouseover', mouseOver);
+clearBtn.addEventListener('mouseout', mouseOut);
 
 function mouseOver(e) {
     this.style['background-color'] = 'darkgrey';
